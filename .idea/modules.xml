@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java_Practice.iml" filepath="$PROJECT_DIR$/java_Practice.iml" />
+      <module fileurl="file://$USER_HOME$/news/news.iml" filepath="$USER_HOME$/news/news.iml" />
+      <module fileurl="file://$USER_HOME$/news/WebRoot/umeditor/umeditor.iml" filepath="$USER_HOME$/news/WebRoot/umeditor/umeditor.iml" />
+    </modules>
+  </component>
+</project>
