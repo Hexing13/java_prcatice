@@ -1,4 +1,4 @@
-/**
+package com.hexing.java; /**
  * Created by hexing on 15-7-27.
  */
 import org.jsoup.Jsoup;
@@ -15,10 +15,10 @@ import java.io.*;
 public class symptom {
     public static void main(String[] args) {
         Document rootDoc = null;
-        File symptom = new File("/home/hexing/chendi/symptom");
+        File symptom = new File("/home/hexing/chendi/com.hexing.java.symptom");
         FileWriter fw = null;
         try {
-            fw = new FileWriter("/home/hexing/chendi/symptom",true);
+            fw = new FileWriter("/home/hexing/chendi/com.hexing.java.symptom",true);
         } catch (IOException e) {
             e.printStackTrace();
         }

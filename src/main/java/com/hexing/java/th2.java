@@ -1,3 +1,5 @@
+package com.hexing.java;
+
 /**
  * Created by hexing on 15-7-30.
  */
@@ -50,20 +52,7 @@ public class th2 {
         for(int i = 1; i <= 3; i++){
             new Mythread(String.valueOf(i),sd).start();
         }
-//        Mythread t1 = new Mythread("1",sd);
-//        Mythread t2 = new Mythread("2",sd);
-//        Mythread t3 = new Mythread("3",sd);
-//        t1.start();
-//        t2.start();
-//        t3.start();
-//        try {
-//            th.sleep(10000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//        t1.show();
-//        t2.show();
-//        t3.show();
+
         System.out.println("wancheng");
     }
 

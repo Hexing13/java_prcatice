@@ -1,3 +1,5 @@
+package com.hexing.java;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

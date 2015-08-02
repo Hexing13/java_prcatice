@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java_Practice.iml" filepath="$PROJECT_DIR$/java_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
-      <module fileurl="file://$USER_HOME$/news/news.iml" filepath="$USER_HOME$/news/news.iml" />
-      <module fileurl="file://$USER_HOME$/news/WebRoot/umeditor/umeditor.iml" filepath="$USER_HOME$/news/WebRoot/umeditor/umeditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
 </project>

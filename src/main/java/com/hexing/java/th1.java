@@ -1,3 +1,5 @@
+package com.hexing.java;
+
 /**
  * Created by hexing on 15-7-30.
  */
