@@ -9,7 +9,7 @@ class Study implements Runnable{
     @Override
     public void run() {
         while (flag){
-            System.out.println("线程。。。"+ i++);
+            System.out.println(Thread.currentThread().getName()+"线程。。。"+ i++);
         }
     }
 
