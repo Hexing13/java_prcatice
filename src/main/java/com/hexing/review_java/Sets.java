@@ -15,7 +15,6 @@ public class Sets {
         if(set1.add("a")){
             System.out.println("2 添加成功");
         }
-        set1.add("111");
         set1.add("222");
         set1.add("333");
 //        System.out.println(set1.size());

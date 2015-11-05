@@ -24,10 +24,11 @@ public class Disease {
             e.printStackTrace();
         }
         try {
-            rootDoc = Jsoup.connect("http://jbk.familydoctor.com.cn/pinyin.html").get();
+            rootDoc = (Document) Jsoup.connect("http://jbk.familydoctor.com.cn/pinyin.html").get();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        assert rootDoc != null;
         Elements alldisease = rootDoc.getElementsByClass("pinyin_bold");
         for(Element each:alldisease){
             try {
