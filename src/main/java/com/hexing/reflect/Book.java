@@ -9,6 +9,9 @@ public class Book {
     private String type;
     public long aLong;
 
+    public Book(){}
+    public Book(String name){ this.name = name;}
+
     public long getaLong() {
         return aLong;
     }
@@ -26,8 +29,6 @@ public class Book {
     }
 
     public String getName() {
-
-        System.out.println("获取名字");
         return name;
     }
 
